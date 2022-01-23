@@ -11,16 +11,12 @@ Label(root,text = 'Youtube Video Downloader', font ='arial 20 bold').pack()
 
 
 
-
-##enter link
 link = StringVar()
 
 Label(root, text = 'Paste Link Here:', font = 'arial 15 bold').place(x= 160 , y = 60)
 link_enter = Entry(root, width = 70,textvariable = link).place(x = 32, y = 90)
 
 
-
-#function to download video
 
 
 def Downloader():
